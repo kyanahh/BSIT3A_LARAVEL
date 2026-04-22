@@ -8,7 +8,7 @@ use App\Http\Controllers\ToDoController;
 use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
-    return view('register');
+    return view('welcome');
 });
 
 // Display register page
